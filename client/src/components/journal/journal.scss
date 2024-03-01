@@ -1,0 +1,51 @@
+.journal{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e9a01a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .publication-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .publication-form input[type="text"],
+  .publication-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .publication-form input[type="text"]:focus,
+  .publication-form input[type="date"]:focus {
+    outline: none;
+    border-color: #1e64af;
+  }
+  
+  .publication-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .publication-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

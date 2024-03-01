@@ -1,0 +1,44 @@
+.left-bar {
+  width: 20%;
+  height: 100vh;
+  background-color: transparent;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-bar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list li {
+  margin-bottom: 10px;
+}
+
+.nav-list li.active a { /* Modified .nav-list li.active a selector */
+  background-color: #938eef;
+  color: white;
+}
+
+.nav-list li a:hover {
+  background-color: #ddd;
+}
+
+.nav-list li.active a:hover {
+  background-color: #938eef;
+}

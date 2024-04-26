@@ -1,6 +1,8 @@
 import { db } from "../connect.js"
 import bcrypt from "bcryptjs";
 import jwt  from "jsonwebtoken";
+import Cookies from 'universal-cookie';
+
 export const register = (req, res) => {
 
   const q = "SELECT * FROM users WHERE username = ?";
@@ -37,15 +39,7 @@ export const login=(req,res)=>{
     const token = jwt.sign({ id: data[0].id }, "secretkey");
 
     const { password, ...others } = data[0];
-
-    res
-      .cookie("accessToken", token, {
-        httpOnly: true,
-        secure: true,
-        sameSite: 'None',
-      })
-      .status(200)
-      .json(others);
+    res.cookie("accessToken", token, { httpOnly: true,secure: true,sameSite: 'None',}).status(200).json(others);
   });
 };
 

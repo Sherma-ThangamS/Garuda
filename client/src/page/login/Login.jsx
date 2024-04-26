@@ -21,15 +21,9 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(inputs);
-      setErr("Login Successfull")
-      try {
-      await login(inputs);
-      navigate("/journal");
+      navigate("/");
     } catch (err) {
-      setErr(err.response);
-    }
-    } catch (err) {
-      setErr(err.response);
+      setErr(err.response.message);
     }
   }
 

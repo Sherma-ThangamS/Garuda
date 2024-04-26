@@ -1,0 +1,33 @@
+.appbar {
+    height: 10vh;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); // Add shadow for a modern look
+  
+    .rmklogo {
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  
+    .clg-title {
+      font-size: 24px; // Adjust font size for a modern and readable look
+      color: #333; // Use a slightly darker color for better contrast
+      font-weight: bold; // Make the title bold
+    }
+  
+    .right-logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        height: 40px; // Reduce the size of the logos for better alignment
+        width: auto; // Let the width adjust proportionally
+        margin-left: 10px; // Add some spacing between logos
+      }
+    }
+  }
+  

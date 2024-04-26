@@ -1,9 +1,6 @@
 .appbar{
-    // padding-top: 15px;
-    // padding-bottom: 20px;
     height: 120px;
-    background-color:transparent ;
-    width: 100%;
+    background-color:green ;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -16,7 +13,7 @@
         }
         .clg-title{
             font-size: x-large;
-            color: rgb(21, 19, 19);
+            color: white;
             width: 100px;
         }
     }

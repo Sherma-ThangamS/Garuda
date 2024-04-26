@@ -1,0 +1,91 @@
+.App2 {
+  max-width: 100vh;
+  max-height:80vh; 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgb(249, 243, 243);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.head {
+  display: inline-flex;
+  margin-left: calc(370px);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.publication-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.publication-form input[type="text"],
+.publication-form input[type="date"]
+ {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
+  transition: .3s ease;
+}
+
+.publication-form input[type="text"]:hover,
+.publication-form input[type="date"]:hover {
+  border: 5px solid black;
+}
+
+.publication-form input[type="text"]:focus,
+.publication-form input[type="date"]:focus {
+  outline: none;
+  border: 5px solid black;
+  border-color: burlywood ;
+  border-radius: 20px;
+
+}
+
+.publication-form button[type="submit"] {
+  background-color: darkslategrey;
+  color: #f5f2f2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.publication-form button[type="submit"]:hover {
+  background-color: #009f3abd;
+}
+.publication-form select {
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
+  transition: .3s ease;
+}
+.publication-form option {
+  font-size: 20px;
+  }
+
+
+
+
+

@@ -1,6 +1,6 @@
-/* Base styles */
 .login {
   height: 100vh;
+  width: 100%;
   background-color: rgb(193, 190, 255);
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
     url("https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsb2ZmaWNlN19waG90b19vZl9hbl9hbWVyaWNhbl9iYWxkX2VhZ2xlX2NvbWluZ19pbl9mb3JfYV8xNWQ3MGIzYi1hNGIzLTQxMjEtYWY5Ni1mMjFiYWEzYWViYjQucG5n.png")
       center;
   background-size: cover;
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
